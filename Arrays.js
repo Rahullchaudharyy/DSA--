@@ -10,7 +10,7 @@ class CustomArray {
     // push(element){
     //     this.data = element ;
     // }
-    pushByInstructor(element) {
+    push(element) {
         this.data[this.length] = element;
         this.length++
         return this.length
@@ -46,10 +46,10 @@ class CustomArray {
 
 const MyArray = new CustomArray()
 // MyArray.push('element one')
-MyArray.pushByInstructor('Ankit')
-MyArray.pushByInstructor('Aman')
-MyArray.pushByInstructor('Rahul')
-MyArray.pushByInstructor('Keshav')
+MyArray.push('Ankit')
+MyArray.push('Aman')
+MyArray.push('Rahul')
+MyArray.push('Keshav')
 
 // MyArray.pop()
 // MyArray.shift()
@@ -57,8 +57,12 @@ MyArray.pushByInstructor('Keshav')
 // console.log() 
 // console.log(MyArray)
 
-MyArray.deleteByIndex(0)
+MyArray.deleteByIndex(2)
 
-
+// console.log(MyArray)
 
 // I have done by my self ; No Cheating .
+
+
+let arr = [0,3,5,3,'dm']
+arr.pop
