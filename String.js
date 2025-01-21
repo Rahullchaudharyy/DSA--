@@ -81,4 +81,21 @@ const FizzBuzz = (n) => {
 }
 
 
-FizzBuzz(10010)
+// FizzBuzz(10010)
+
+
+
+// Make the first Alphabate Uppercase . 
+
+const ConvertToCapitalization = (string) => {
+    const convertedString = string
+        .toLowerCase()
+        .split(' ') 
+        .map(word => word[0].toUpperCase() + word.slice(1)) 
+        .join(' '); 
+
+    console.log(convertedString);
+};
+
+
+ConvertToCapitalization("this will definately be the cammel case sentence .");
