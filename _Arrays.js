@@ -28,8 +28,4 @@ console.log(Chunk([1, 2, 3, 4, 5, 6, 7], 7));
 
 
 
-// Algo stepls :-
-
-
-//  1 - Devide the array length to the given size to extract that how many chunks we will have ?? 
 
